@@ -1,5 +1,5 @@
 # SCAM6-PPE
-A sample workflow for generating a perturbed parameter ensemble using the SCAM6 atmospheric model, in order to build a statistical surrogate model.
+A workflow for generating a perturbed parameter ensemble using the SCAM6 atmospheric model, in order to build a statistical surrogate model. _This project is currently unpublished and subsequently not public, but the current sample should adequately illustrate the process_.
 
 ### Generating the ensemble of input parameters
 - A sample for the input parameters and specified ranges is generated using a Latin Hypercube Sampling (LHS) strategy.
