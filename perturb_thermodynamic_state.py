@@ -6,9 +6,9 @@ import numpy.ma as ma
 import netCDF4 as nc
 
 # USAGE
-# python Jupyter\ Scripts/Python_Scripts/pert_IOP_T_inv_v4.py k1 k2 t2 jobid emulator_version_in_iopfiles_directory
+# python Jupyter\ Scripts/Python_Scripts/perturb_thermodynamic_state.py k1 k2 t2 jobid emulator_version_in_iopfiles_directory
 # EXAMPLE USAGE:
-# python Jupyter\ Scripts/Python_Scripts/pert_IOP_T_inv_v4.py 75 50 295 322 case_V4.1
+# python Jupyter\ Scripts/Python_Scripts/perturb_thermodynamic_state.py 75 50 295 322 case_V4.1
 
 k1=np.int(sys.argv[1]) #k1
 k2=np.int(sys.argv[2]) #k2
