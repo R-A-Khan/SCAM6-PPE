@@ -8,7 +8,7 @@ A sample workflow for generating a perturbed parameter ensemble using the SCAM6 
 
 ### Generating the model simulations for each perturbed parameter case
 - The parameters are passed into the atmospheric model settings and the simulation is run via __run_model_loop.sh__ .
-- The thermodynamic profiles are adjusted based on the input parameters in the __inv.py__ script.
+- The thermodynamic profiles are adjusted based on the input parameters in the __perturb_thermodynamic_state.py__ script.
 - The simulations are run in a loop with 32 model evaluations run concurrently on 1 core each, for a total of 20 (e.g) loops, via the __emulator_runs_loop.sh__ script.
 
 ### Post-processing of simulation output data
